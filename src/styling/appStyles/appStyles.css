@@ -1,9 +1,7 @@
-.App {
-    height: 100%;
-}
 .title {
     width: 500px;
     height: 50px;
-    background-color: red;
     margin: auto;
+    font-size: 30px;
+    text-align: center;
 }

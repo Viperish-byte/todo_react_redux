@@ -2,19 +2,16 @@
 import '../src/styling/appStyles/appStyles.css';
 import '../src/styling/leftContainerStyles/leftContainerStyles.css'
 import '../src/styling/rightContainerStyles/rightContainerStyles.css'
+import LeftContainer from './features/leftContainer/LeftContainer';
+import RightContainer from './features/rightContainer/RightContainer';
 
 function App(): JSX.Element {
   return (
     <div className="App">
-      <header className="App-header">
-        
-      </header>
-      
-      <div className="title"></div>
+      <div className="title">Todo via React/Redux</div>
 
-      <div className="leftContainer"></div>
-
-      <div className="rightContainer"></div>
+      <LeftContainer/>
+      <RightContainer/>
 
       {/*<Counter />*/}
 
