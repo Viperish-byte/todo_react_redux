@@ -1,0 +1,6 @@
+.leftContainer {
+    height: calc(100vh - 80px);
+    width: 350px;
+    background-color: green;
+    display: inline-block;
+}

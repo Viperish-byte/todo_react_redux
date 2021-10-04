@@ -1,0 +1,6 @@
+.rightContainer {
+    height: calc(100vh - 80px);
+    width: calc(100vw - 390px);
+    background-color: yellow;
+    display: inline-block;
+}
